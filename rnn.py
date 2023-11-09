@@ -84,7 +84,7 @@ if __name__ == "__main__":
     model = RNN(50, args.hidden_dim)  # Fill in parameters
 #     optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
     optimizer = optim.Adam(model.parameters(), lr=0.01)
-    word_embedding = pickle.load(open('/Users/venkataguntupalli/Documents/NLP/assignments/assignment2/word_embedding.pkl', 'rb'))
+    word_embedding = pickle.load(open('E:/UTD/3 sem - fall 2023/NLP/Assignments/Assignment2/A2/assignment2/word_embedding.pkl', 'rb'))
 
     stopping_condition = False
     epoch = 0
